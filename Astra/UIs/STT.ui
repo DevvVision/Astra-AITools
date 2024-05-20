@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>930</width>
+    <height>602</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>201</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(21,32,43);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TTS_but">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+
+
+    QPushButton {
+      background-color:rgb(121,82,179); color:white; border-radius:3px; font-weight:bold; height:36px; width:120px; border:none; margin-top:5px; margin-right:10px; 
+            }
+            QPushButton:hover {
+                background-color: gray;
+                color: white;
+				cursor:pointer;
+            }
+</string>
+    </property>
+    <property name="text">
+     <string>Text-To-Speech</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="STT_but">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">   QPushButton {
+      background-color:rgb(121,82,179); color:white; border-radius:3px; font-weight:bold; height:36px; width:120px; border:none; margin-top:5px; margin-right:10px; cursor:pointer;
+            }
+            QPushButton:hover {
+                background-color: gray;
+                color: white;
+            }
+</string>
+    </property>
+    <property name="text">
+     <string>Speech-To-Text</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="TTI_but">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>350</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">   QPushButton {
+      background-color:rgb(121,82,179); color:white; border-radius:3px; font-weight:bold; height:36px; width:120px; border:none; margin-top:5px; margin-right:10px; cursor:pointer;
+            }
+            QPushButton:hover {
+                background-color: gray;
+                color: white;
+            }
+
+</string>
+    </property>
+    <property name="text">
+     <string>Text-To-Image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ITT_but">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">   QPushButton {
+      background-color:rgb(121,82,179); color:white; border-radius:3px; font-weight:bold; height:36px; width:120px; border:none; margin-top:5px; margin-right:10px; cursor:pointer;
+            }
+            QPushButton:hover {
+                background-color: gray;
+                color: white;
+            }
+</string>
+    </property>
+    <property name="text">
+     <string>Image-To-Text</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>200</y>
+      <width>101</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #ffffff;
+font-family: &quot;Times New Roman&quot;, Times, serif;</string>
+    </property>
+    <property name="text">
+     <string>AI tools</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>161</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>26</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QLabel {
+                color: #FFFFFF;
+                background-color: #1E1E1E;
+                border: 2px solid #4A4A4A;
+                border-radius: 20px;
+                padding: 20px;
+            }</string>
+    </property>
+    <property name="text">
+     <string>Astra</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Background_Image">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>0</y>
+      <width>731</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Assets/Background.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="TTS">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>80</y>
+      <width>401</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string/>
+    </property>
+    <property name="accessibleName">
+     <string comment="l;asdjl;sa" extracomment="klmscalkmdl"/>
+    </property>
+    <property name="accessibleDescription">
+     <string comment=";ljcldskajfljadsm" extracomment="ksjaljcdla"/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+                color: rgba(255, 255, 255, 0.9);          /* White text with 90% opacity */
+                background-color: rgba(30, 30, 30, 0.5);  /* Dark background with 80% opacity */
+                border: 2px solid rgba(74, 74, 74, 0.6);  /* Border with 70% opacity */
+                border-radius: 70px;
+                padding: 10px;
+            }</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Generate_Button_TTS">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>380</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roobert</family>
+      <pointsize>-1</pointsize>
+      <underline>false</underline>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="statusTip">
+     <string/>
+    </property>
+    <property name="whatsThis">
+     <string comment="Enter prompt"/>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+  appearance: none;
+  background-color: rgb(0,0,0,0.5);
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;
+  font-size: 16px;
+  line-height: normal;
+  margin: 0;
+  outline: none;
+  padding: 10px 14px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+QPushButton:disabled {
+  pointer-events: none;
+}
+
+QPushButton:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+QPushButton:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Press and Speak</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="status">
+    <property name="geometry">
+     <rect>
+      <x>434</x>
+      <y>460</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;Status&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(255, 255, 255, 0.9);          /* White text with 90% opacity */
+background-color: rgba(30, 30, 30, 0.5);
+border:rgba(30, 30, 30, 0.5);
+border-radius: 15px;
+font-size:25px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="output">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>170</y>
+      <width>311</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(255, 255, 255, 0.9);          /* White text with 90% opacity */
+background-color: rgba(30, 30, 30, 0.5);
+border:rgba(30, 30, 30, 0.5);
+border-radius: 15px;
+font-size:25px;
+</string>
+    </property>
+    <property name="lineWrapMode">
+     <enum>QTextEdit::WidgetWidth</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
