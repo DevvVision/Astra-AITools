@@ -1,23 +1,48 @@
-Instructions to use Astra ->
+# Astra - AI-Powered Multimedia Assistant
 
--> Running
+Astra is a well-structured AI-powered UI application that integrates four essential tools:
+- **Text-to-Speech (TTS)** using `pyttsx3`
+- **Speech-to-Text (STT)** using `SpeechRecognition`
+- **Text-to-Image (TTI)** using Stability AI's Stable Diffusion API
+- **Image-to-Text (ITT)** using Salesforce's BLIP image captioning model
 
-1.go to dist folder
-2.run Astra.exe // to run the program
-3.It might take few seconds to load as it is a heavy program
+---
 
-->while running 
+## 📥 Installation & Setup
 
-1.do not press "run command" buttons(generate,upload,choose file) twice,
-2.A PROCESS MAKE TAKE SOME TIME TO RUN THE COMMAND SO,DO NOT HURRY,WAIT FOR THE OUTPUT TO APPEAR
-3.if the program is not responding wait for a few seconds as it's AI is under heavy workload
-4.All your downloads will appear in the Astra\dist\Downloads
+### **Running Astra**
+1. Navigate to the `dist` folder.
+2. Run `Astra.exe` to launch the application.
+3. The program may take a few seconds to load due to its AI processing workload.
 
-->precautions 
+---
 
-1.Do not delete any file or folder , it might hinder the working of the applications
-2.Do not close the program while it is under process ,or it is not responding
+## 🚀 Usage Instructions
 
-->recommendations
+### **While Running Astra**
+- **Do not press any "Run Command" buttons (Generate, Upload, Choose File) multiple times.** Each process requires time to execute.
+- **Be patient.** Some AI operations take time; wait for the output instead of repeatedly clicking buttons.
+- **If the program appears unresponsive, wait for a few seconds.** Heavy AI processing can cause brief delays.
+- **All downloads are saved in** `Astra/dist/Downloads`.
 
-- create a shortcut file of Astra.exe on your desktop/start ,for ease of Access
+---
+
+## ⚠️ Precautions
+- **Do not delete any files or folders** within Astra’s directory, as it may disrupt the application's functionality.
+- **Do not force close Astra while a process is running.** Interrupting AI tasks may cause issues.
+
+---
+
+## ✅ Recommendations
+- **Create a desktop/start menu shortcut for Astra.exe** for quick and easy access.
+
+---
+
+## 📜 License
+This project is open-source. Feel free to modify and improve it.
+
+---
+
+## 📞 Support & Feedback
+For any issues, suggestions, or contributions, feel free to reach out or open an issue on the [GitHub repository](https://github.com/your-repo-link).
+
